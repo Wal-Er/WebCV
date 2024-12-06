@@ -18,6 +18,10 @@ body {
    margin: 3% 6% 3% 9%;
 }
 
+.zero-bottom-margin {
+   margin-bottom: 0;
+}
+
 nav {
    padding-top: 1%;
 }
@@ -26,16 +30,6 @@ summary div {
    text-align: justify;
    text-indent: 3%;
 }
-
-header p,
-summary p {
-   margin-bottom: 0;
-}
-
-/* summary,
-section {
-   margin: 1% 6% 3% 9%;
-} */
 
 span {
    margin: 0 1%;
