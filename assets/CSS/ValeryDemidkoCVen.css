@@ -1,6 +1,7 @@
 body {
    background: rgb(211, 211, 211);
    margin: 0;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .pageA4 {
@@ -22,8 +23,51 @@ body {
    margin-bottom: 0;
 }
 
-nav {
-   padding-top: 1%;
+a {
+   text-decoration: none;
+}
+
+header {
+   padding-top: 9%;
+}
+
+.header-logo {
+   width: 18px;
+   height: 18px;
+   border: none;
+   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+   margin-bottom: -3px;
+   cursor: pointer;
+}
+
+.header-logo:active {
+   margin-top: 1px;
+   margin-left: 1px;
+   box-shadow: none;
+}
+
+div#name {
+   font-size: large;
+   font-weight: bold;
+}
+
+img#polska,
+img#phone-icon {
+   box-shadow: none;
+   margin-top: 3px;
+}
+
+img#e-mail-icon {
+   border-radius: 3px;
+}
+
+img#linkedin-logo {
+   border-radius: 2px;
+   margin-top: 6px;
+}
+
+img#github-logo {
+   border-radius: 50%;
 }
 
 summary div {
@@ -38,7 +82,6 @@ span {
 footer {
    position: absolute;
    bottom: 0;
-   /* margin: 3% 6% 3% 9%; */
 }
 
 p#rodo {
