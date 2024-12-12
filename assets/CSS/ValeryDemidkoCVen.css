@@ -31,6 +31,10 @@ header {
    padding-top: 9%;
 }
 
+summary {
+   line-height: 18pt;
+}
+
 .header-logo {
    width: 18px;
    height: 18px;
@@ -68,6 +72,36 @@ img#linkedin-logo {
 
 img#github-logo {
    border-radius: 50%;
+}
+
+.skills {
+   display: flex;
+   justify-content: space-between;
+   margin: 1% 16%;
+}
+
+.skill-figure {
+   width: 18px;
+}
+
+img#js-figure {
+   width: 19px;
+   margin-bottom: 3%;
+}
+
+img#php {
+   width: 36px;
+   margin-top: 6%;
+}
+
+img#oracle-logo {
+   width: 99px;
+   margin-top: 3%;
+   margin-bottom: 1%;
+}
+
+.employer-figure {
+   width: 56px;
 }
 
 summary div {
