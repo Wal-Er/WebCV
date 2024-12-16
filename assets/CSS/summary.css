@@ -1,0 +1,9 @@
+summary {
+   line-height: 14pt;
+}
+
+summary div {
+   text-align: justify;
+   text-indent: 3%;
+   font-size: 11pt;
+}
