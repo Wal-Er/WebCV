@@ -39,3 +39,7 @@ img#linkedin-logo {
 img#github-logo {
    border-radius: 50%;
 }
+
+.web-cv a {
+   margin: 3%;
+}
