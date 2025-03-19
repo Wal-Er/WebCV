@@ -60,3 +60,14 @@
 .step-line {
    border-top: 3px solid rgb(57, 136, 42);
 }
+
+.employers-benefits {
+   margin: 0.3% 26%;
+   text-align: justify;
+   text-indent: 3%;
+   font-size: 11pt;
+}
+
+.font11 {
+   font-size: 11pt;
+}
